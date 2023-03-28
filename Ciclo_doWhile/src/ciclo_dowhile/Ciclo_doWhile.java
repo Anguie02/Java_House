@@ -1,4 +1,4 @@
-
+//Primero ejecuta, déspues evalua la condición
 package ciclo_dowhile;
 
 
