@@ -16,18 +16,22 @@ public class Condicionales_ejercicio1 {
         //Pedimos el ingreso del número entero
         System.out.println("Ingrese un número entero: ");
         //Lo almacenamos en una variable
-        int dato, condicional;
+        int dato;
         dato = entrada.nextInt();
         //Ahora lo verificamos si el número es múltiplo de 10
         // a es multiplo de b si b *c = a
-        condicional = 10 % dato;
-        if ( condicional == 0){
+        
+        if ( dato %10 == 0){
             System.out.println("El número es múltipo de 10");
         }//
+        else{
+            System.out.println("El número no es múltiplo de 10");
+        }
         
         
         
         
-    }
+        
+    }//final
     
-}
+}//final
