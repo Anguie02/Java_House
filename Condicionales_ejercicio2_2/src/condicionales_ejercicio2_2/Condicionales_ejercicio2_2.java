@@ -25,7 +25,7 @@ public class Condicionales_ejercicio2_2 {
             System.out.println("Se aplicará el descuento del 30%");
             System.out.println("\nEl total a pagar es : "+monto);
         }else{
-            System.out.println("Su compra es menor a 300, no se aplicará el descuento");
+            System.out.println("No se aplicará el descuento");
         }
         
     }//fin
